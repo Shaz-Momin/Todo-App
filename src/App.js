@@ -42,7 +42,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-          <h2>TODO List</h2>
+          <h2>ToDo List</h2>
         </div>
         <form onSubmit={this.handleSubmit}>
           <input id="new-todo" placeholder="Add new tasks" value={this.state.text} onChange={this.handleChange}/>
